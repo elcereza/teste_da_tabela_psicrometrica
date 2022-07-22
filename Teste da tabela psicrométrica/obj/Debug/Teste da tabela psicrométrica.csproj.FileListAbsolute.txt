@@ -1,0 +1,7 @@
+C:\Users\gusta\source\repos\Teste da tabela psicrométrica\Teste da tabela psicrométrica\bin\Debug\Teste da tabela psicrométrica.exe.config
+C:\Users\gusta\source\repos\Teste da tabela psicrométrica\Teste da tabela psicrométrica\bin\Debug\Teste da tabela psicrométrica.exe
+C:\Users\gusta\source\repos\Teste da tabela psicrométrica\Teste da tabela psicrométrica\bin\Debug\Teste da tabela psicrométrica.pdb
+C:\Users\gusta\source\repos\Teste da tabela psicrométrica\Teste da tabela psicrométrica\obj\Debug\Teste da tabela psicrométrica.csprojAssemblyReference.cache
+C:\Users\gusta\source\repos\Teste da tabela psicrométrica\Teste da tabela psicrométrica\obj\Debug\Teste da tabela psicrométrica.csproj.CoreCompileInputs.cache
+C:\Users\gusta\source\repos\Teste da tabela psicrométrica\Teste da tabela psicrométrica\obj\Debug\Teste da tabela psicrométrica.exe
+C:\Users\gusta\source\repos\Teste da tabela psicrométrica\Teste da tabela psicrométrica\obj\Debug\Teste da tabela psicrométrica.pdb
