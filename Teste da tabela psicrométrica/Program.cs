@@ -93,7 +93,7 @@ namespace Teste_da_tabela_psicrométrica
                         else if (dt > 10)
                             ur = 0;
 
-                        Console.WriteLine($"line = {line} | column = {c} | dt = {dt} | Humidade = {ur}%");
+                        Console.WriteLine($"line = {line} | column = {c} | dt = {dt} | umidade = {ur}%");
                     }
                     else
                         Console.WriteLine("ERRO! Temperatura fora da matriz");
