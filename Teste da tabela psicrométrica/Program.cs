@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+using System.Net.NetworkInformation;
 
 namespace Teste_da_tabela_psicrométrica
 {
@@ -93,7 +94,14 @@ namespace Teste_da_tabela_psicrométrica
                         else if (dt > 10)
                             ur = 0;
 
-                        Console.WriteLine($"line = {line} | column = {c} | dt = {dt} | umidade = {ur}%");
+
+                        double Pvs  = 6.1078 * Math.Pow(10, (7.5 + ts) / (237.3 + ts));
+                        double Pvsm = 6.1078 * Math.Pow(10, (7.5 + tm) / (237.3 + tm));
+                        double Pv = ur * Pvs / 100;
+                        double Bar = (Pvsm - Pv) / (6.7 * Math.Pow(10, -4) * (ts - tm));
+                        Bar *= 1.33322;
+
+                        Console.WriteLine($"L = {line} | C = {c} | Dt = {dt} | UR = {ur}% | Bar = {Bar}hPa | Pv = {Pv} | Pvs = {Pvs} | Pvsm = {Pvsm}");
                     }
                     else
                         Console.WriteLine("ERRO! Temperatura fora da matriz");
